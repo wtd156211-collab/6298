@@ -1,0 +1,9 @@
+{
+  "file": "02-block-comments.ini",
+  "edits": [
+    {"op": "delete", "section": "collector", "key": "interval"},
+    {"op": "delete", "section": "collector", "key": "retries"},
+    {"op": "set", "section": "collector", "key": "collector_version", "value": "4"},
+    {"op": "delete", "section": "collector", "key": "missing"}
+  ]
+}

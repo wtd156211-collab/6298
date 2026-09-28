@@ -1,0 +1,7 @@
+{
+  "file": "06-comments-only.ini",
+  "edits": [
+    {"op": "set", "section": "cluster", "key": "node", "value": "n1"},
+    {"op": "set", "section": "cluster", "key": "peers", "value": "n2;n3"}
+  ]
+}

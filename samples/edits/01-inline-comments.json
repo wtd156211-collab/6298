@@ -1,0 +1,10 @@
+{
+  "file": "01-inline-comments.ini",
+  "edits": [
+    {"op": "set", "section": "server", "key": "port", "value": "9090"},
+    {"op": "set", "section": "server", "key": "timeout", "value": "45"},
+    {"op": "set", "section": "server", "key": "retries", "value": "3"},
+    {"op": "set", "section": "server", "key": "graceful_stop", "value": "true"},
+    {"op": "delete", "section": "log", "key": "path"}
+  ]
+}

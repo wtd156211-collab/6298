@@ -1,0 +1,9 @@
+{
+  "file": "03-indent.ini",
+  "edits": [
+    {"op": "set", "section": "auth", "key": "password", "value": "rotated-2026"},
+    {"op": "set", "section": "auth", "key": "scope", "value": "read write"},
+    {"op": "set", "section": "cache", "key": "ttl", "value": "600"},
+    {"op": "set", "section": "metrics", "key": "port", "value": "9100"}
+  ]
+}

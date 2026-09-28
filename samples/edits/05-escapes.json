@@ -1,0 +1,9 @@
+{
+  "file": "05-escapes.ini",
+  "edits": [
+    {"op": "set", "section": "paths", "key": "root", "value": "E:\\data\\logs"},
+    {"op": "set", "section": "paths", "key": "pattern", "value": "log#2;tmp"},
+    {"op": "set", "section": "paths", "key": "newline", "value": "a\nb"},
+    {"op": "set", "section": "paths", "key": "trailing", "value": "done"}
+  ]
+}
